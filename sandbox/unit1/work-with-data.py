@@ -1,7 +1,7 @@
 import json
 import collections
 
-with open('../data.json') as infile:
+with open('../../data.json') as infile:
     data = json.load(infile)
 
 pData = data['events_data']

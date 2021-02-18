@@ -1,5 +1,5 @@
 import re
-f = open('../StudentsPerformance.csv')
+f = open('../../StudentsPerformance.csv')
 
 pattern = re.compile('\d+')
 
