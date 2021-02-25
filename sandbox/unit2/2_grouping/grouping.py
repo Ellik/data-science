@@ -1,7 +1,7 @@
 from IPython.display import display
 import pandas as pd
 
-df = pd.read_csv('data_sf.csv')
+df = pd.read_csv('../data_sf.csv')
 df_prep = df[df.columns[1:8]].head(25)
 # with pd.option_context('display.max_rows', None, 'display.max_columns', None):
 #     display(df_prep)

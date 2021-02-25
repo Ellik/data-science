@@ -8,7 +8,7 @@ import pandas as pd
 
 # display(df)
 
-df = pd.read_csv('data_sf.csv')
+df = pd.read_csv('../data_sf.csv')
 
 # display(df.head(5))  # tail()
 # display(df.info())  # Детальная информация

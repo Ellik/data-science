@@ -1,7 +1,7 @@
 import pandas as pd
 from IPython.display import display
 
-df = pd.read_csv('data_sf.csv')
+df = pd.read_csv('../data_sf.csv')
 
 # pivot = df[df['Club'].isin(['FC Barcelona', 'Real Madrid', 'Juventus', 'Manchester United'])].pivot_table(
 #     values=['Wage'],
